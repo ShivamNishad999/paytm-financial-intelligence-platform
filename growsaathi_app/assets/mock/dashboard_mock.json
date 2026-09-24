@@ -1,0 +1,58 @@
+{
+  "sales": {
+    "totalSales": 52480.0,
+    "totalOrders": 186,
+    "averageOrderValue": 282.15
+  },
+  "customers": {
+    "totalCustomers": 214,
+    "atRiskCustomers": 18
+  },
+  "products": {
+    "totalProducts": 96,
+    "productsWithoutSales": 7
+  },
+  "inventory": {
+    "lowStockProducts": 9,
+    "outOfStockProducts": 3
+  },
+  "campaigns": {
+    "totalCampaigns": 4,
+    "activeCampaigns": 1,
+    "campaignRevenue": 6120.0
+  },
+  "dailySales": [
+    { "date": "2026-09-12", "sales": 6100.0, "orders": 22 },
+    { "date": "2026-09-13", "sales": 7250.0, "orders": 27 },
+    { "date": "2026-09-14", "sales": 5980.0, "orders": 19 },
+    { "date": "2026-09-15", "sales": 8420.0, "orders": 31 },
+    { "date": "2026-09-16", "sales": 7100.0, "orders": 24 },
+    { "date": "2026-09-17", "sales": 9260.0, "orders": 33 },
+    { "date": "2026-09-18", "sales": 8370.0, "orders": 30 }
+  ],
+  "paymentMethods": [
+    { "paymentMethod": "UPI", "transactionCount": 132, "totalAmount": 34210.0 },
+    { "paymentMethod": "CARD", "transactionCount": 41, "totalAmount": 12980.0 },
+    { "paymentMethod": "CASH", "transactionCount": 13, "totalAmount": 5290.0 }
+  ],
+  "opportunities": [
+    {
+      "type": "CUSTOMER_RETENTION",
+      "priority": "MEDIUM",
+      "message": "18 customers are currently at risk.",
+      "action": "Run a targeted win-back campaign for at-risk customers."
+    },
+    {
+      "type": "INVENTORY_ALERT",
+      "priority": "HIGH",
+      "message": "3 products are out of stock.",
+      "action": "Prioritize restocking products with customer demand."
+    },
+    {
+      "type": "PRODUCT_OPPORTUNITY",
+      "priority": "MEDIUM",
+      "message": "7 products have no recorded sales.",
+      "action": "Promote these products using bundles, discounts, or targeted offers."
+    }
+  ]
+}
